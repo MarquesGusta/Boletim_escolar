@@ -20,7 +20,7 @@ function calcularMedia(){
     if(media1 >= 70){
         document.getElementById("situacao1").innerHTML = "Aprovado"
         var situacao1 = document.getElementById("situacao1")
-        situacao1.style.backgroundColor = "#A8A8A8"
+        situacao1.style.backgroundColor = "green"
     }
     else if(media1 >= 50 && media1 < 70){
         document.getElementById("situacao1").innerHTML = "Recuperação"
@@ -51,7 +51,7 @@ function calcularMedia(){
     if(media2 >= 70){
         document.getElementById("situacao2").innerHTML = "Aprovado"
         var situacao2 = document.getElementById("situacao2")
-        situacao2.style.backgroundColor = "#A8A8A8"
+        situacao2.style.backgroundColor = "green"
     }
     else if(media2 >= 50 && media2 < 70){
         document.getElementById("situacao2").innerHTML = "Recuperação"
@@ -82,7 +82,7 @@ function calcularMedia(){
     if(media3 >= 70){
         document.getElementById("situacao3").innerHTML = "Aprovado"
         var situacao3 = document.getElementById("situacao3")
-        situacao3.style.backgroundColor = "#A8A8A8"
+        situacao3.style.backgroundColor = "green"
     }
     else if(media3 >= 50 && media3 < 70){
         document.getElementById("situacao3").innerHTML = "Recuperação"
@@ -113,7 +113,7 @@ function calcularMedia(){
     if(media4 >= 70){
         document.getElementById("situacao4").innerHTML = "Aprovado"
         var situacao4 = document.getElementById("situacao4")
-        situacao4.style.backgroundColor = "#A8A8A8"
+        situacao4.style.backgroundColor = "green"
     }
     else if(media4 >= 50 && media4 < 70){
         document.getElementById("situacao4").innerHTML = "Recuperação"
@@ -144,7 +144,7 @@ function calcularMedia(){
     if(media5 >= 70){
         document.getElementById("situacao5").innerHTML = "Aprovado"
         var situacao5 = document.getElementById("situacao5")
-        situacao5.style.backgroundColor = "#A8A8A8"
+        situacao5.style.backgroundColor = "green"
     }
     else if(media5 >= 50 && media5 < 70){
         document.getElementById("situacao5").innerHTML = "Recuperação"
